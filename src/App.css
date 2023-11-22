@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  width: 480px;
-  height: 260px;
+  min-width: 400px;
+  max-width: 500px;
+  min-height: 200px;
   background-color: #313949;
   border-radius: 10px;
   position: absolute;
@@ -9,6 +10,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow: rgba(100, 100, 111, 0) 0px 7px 29px 0px;
+  transition: min-height 0.3s ease;
+}
+
+.container {
+  max-width: 100%;
+  transition: max-height 0.3s ease-in-out;
 }
 
 .App-link {
