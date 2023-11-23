@@ -5,11 +5,10 @@ import { faDiceFive } from "@fortawesome/free-solid-svg-icons";
 
 import "./ButtonGenerate.css";
 
-export default function ButtonGenerate() {
-  function generateAdvice() {}
+export default function ButtonGenerate(props) {
   return (
     <div className="ButtonGenerate">
-      <div className="circle-dice" onClick={generateAdvice}>
+      <div className="circle-dice" onClick={props.generate}>
         <FontAwesomeIcon icon={faDiceFive} className="dice" />
       </div>
     </div>

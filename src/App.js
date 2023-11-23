@@ -1,6 +1,6 @@
 import AdviceCard from "./components/AdviceCard/AdviceCard.jsx";
 
-import "./App.css";
+import "./media.css";
 
 function App() {
   return (
