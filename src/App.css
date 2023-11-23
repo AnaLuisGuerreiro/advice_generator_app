@@ -1,8 +1,23 @@
-.App {
-  margin: 0 auto;
-  width: 540px;
-  background-color: #313949;
-  border-radius: 10px;
-  position: relative;
-  padding: 2rem 1rem 2rem 1rem;
+@media (max-width: 620px) {
+  .App .AdviceCard {
+    width: 100%;
+  }
+  .AdviceCard .circle-dice {
+    left: 9.6rem !important;
+  }
+  .AdviceCard .divider_mobile {
+    display: block;
+  }
+  .AdviceCard .divider_desk {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .AdviceCard h2 {
+    font-size: 23px;
+  }
+  .AdviceCard p {
+    font-size: 10px;
+  }
 }

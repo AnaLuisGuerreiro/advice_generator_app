@@ -1,4 +1,4 @@
-import AdviceCard from "./components/Advice/AdviceCard.jsx";
+import AdviceCard from "./components/AdviceCard/AdviceCard.jsx";
 
 import "./App.css";
 
