@@ -1,23 +1,8 @@
 .App {
-  text-align: center;
-  min-width: 400px;
-  max-width: 500px;
-  min-height: 200px;
+  margin: 0 auto;
+  width: 540px;
   background-color: #313949;
   border-radius: 10px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: rgba(100, 100, 111, 0) 0px 7px 29px 0px;
-  transition: min-height 0.3s ease;
-}
-
-.container {
-  max-width: 100%;
-  transition: max-height 0.3s ease-in-out;
-}
-
-.App-link {
-  color: #4effaf;
+  position: relative;
+  padding: 2rem 1rem 2rem 1rem;
 }

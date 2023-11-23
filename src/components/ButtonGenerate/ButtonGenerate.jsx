@@ -1,17 +1,16 @@
 import React from "react";
+import divider from "../img/divider.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDiceFive, faPause } from "@fortawesome/free-solid-svg-icons";
+import { faDiceFive } from "@fortawesome/free-solid-svg-icons";
 
 import "./ButtonGenerate.css";
 
 export default function ButtonGenerate() {
+  function generateAdvice() {}
   return (
     <div className="ButtonGenerate">
-      <p className="line"> </p>
-      <div className="circle-pause">
-        <FontAwesomeIcon icon={faPause} className="pause" />
-      </div>
-      <div className="circle-dice">
+      <img src={divider} alt="Line divider" />
+      <div className="circle-dice" onClick={generateAdvice}>
         <FontAwesomeIcon icon={faDiceFive} className="dice" />
       </div>
     </div>
