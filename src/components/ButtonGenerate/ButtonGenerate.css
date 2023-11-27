@@ -23,8 +23,8 @@
   box-shadow: #4effaf33 0px 0px 16px;
   transition: 0.1s ease-in-out;
 }
-.circle-dice:active {
-  background-color: #4effafcb;
+.ButtonGenerate:active {
+  background-color: #4effaf9d;
   box-shadow: #4effaf57 0px 0px 16px;
-  transform: translateY(1px, 1px);
+  transform: translateX(1px, 1px);
 }
