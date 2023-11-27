@@ -11,4 +11,4 @@ And this project was the out come of that task.
 
 ## Api
 
-The api used in this project was Advice Slip Api ('https://api.adviceslip.com')
+The api used in this project was Advice Slip Api ('https://api.adviceslip.com').
