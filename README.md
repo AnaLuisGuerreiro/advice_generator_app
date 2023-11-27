@@ -1,8 +1,7 @@
 # Advice Generator App with React
 
-<hr>
-### Overview: 
-<br>
+### Overview:
+
 The purpose of this project is to create an advice generator app using the React framework. The application will have a user interface that allows users to click on a dice and generate every time a new advice.
 
 ## Challenge Frontend Mentor
