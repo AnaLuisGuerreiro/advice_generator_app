@@ -1,9 +1,9 @@
 @media (max-width: 620px) {
-  .App .AdviceCard {
-    width: 100%;
+  .AdviceCard {
+    width: 90%;
   }
-  .AdviceCard .circle-dice {
-    left: 9.6rem !important;
+  .AdviceCard .ButtonGenerate {
+    position: absolute;
   }
   .AdviceCard .divider_mobile {
     display: block;

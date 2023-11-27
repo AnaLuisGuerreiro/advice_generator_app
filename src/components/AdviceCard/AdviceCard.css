@@ -19,17 +19,13 @@
   font-weight: 700;
   color: #4effaf;
   font-size: 14px;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
 }
 .AdviceCard h2 {
   font-size: 28px;
   margin-bottom: 2rem;
   text-align: center;
 }
-.AdviceCard .divider_desk {
-  margin-bottom: 10px;
-}
-
 .AdviceCard .divider_mobile {
   display: none;
 }

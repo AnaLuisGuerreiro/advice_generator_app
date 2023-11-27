@@ -1,11 +1,11 @@
-.ButtonGenerate .circle-dice {
+.ButtonGenerate {
   position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: #4effaf;
   border-radius: 50%;
-  width: 55px;
-  height: 55px;
   bottom: -25px;
-  left: 15.2rem;
   color: #1f2631;
   display: flex;
   flex-direction: column;
@@ -13,14 +13,18 @@
   justify-content: center;
   font-size: 1.5rem;
   cursor: pointer;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
-.circle-dice:hover {
-  box-shadow: #4effaf57 0px 0px 16px;
+.ButtonGenerate:hover {
+  box-shadow: #4effaf33 0px 0px 16px;
   transition: 0.1s ease-in-out;
 }
 .circle-dice:active {
   background-color: #4effafcb;
   box-shadow: #4effaf57 0px 0px 16px;
-  transform: translateY(3px);
+  transform: translateY(1px, 1px);
 }
